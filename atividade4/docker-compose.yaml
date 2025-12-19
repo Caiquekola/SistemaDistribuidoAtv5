@@ -5,7 +5,7 @@ services:
       network_mode: bridge
       container_name: mqtt
       expose:
-        - 2304  
+        - 1883  
       ports:
-        - 2304:2304
+        - 1883:1883
       restart: unless-stopped
